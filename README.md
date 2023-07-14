@@ -22,21 +22,21 @@ The repository includes a preprocessing folder, which contains the following .ip
 
 <h2 style="font-size: larger;">Classifier Folders</h2> 
 
-The repository includes separate folders for each classifier, containing the corresponding .ipynb files. These folders are as follows:
+The repository includes separate folders for each classifier, containing the corresponding .py files. These folders are as follows:
 
-**random-forest**: This folder contains the Random Forest classifier's .ipynb file, showcasing the code used to train and evaluate the classifier on the UNB binary, UNB multiclass, and Kaggle datasets.
+**random-forest**: This folder contains the Random Forest classifier's .py file, showcasing the code used to train and evaluate the classifier.
 
-**decision-tree:** This folder contains the Decision Tree classifier's .ipynb file, demonstrating the code used to train and evaluate the classifier on the UNB binary, UNB multiclass, and Kaggle datasets.
+**decision-tree:** This folder contains the Decision Tree classifier's .py file, demonstrating the code used to train and evaluate the classifier on all the datasets. 
 
-**fcnn**: This folder contains the Fully Connected Neural Network (FCNN) classifier's .ipynb file. It showcases the code used to train and evaluate the FCNN on the UNB binary, UNB multiclass, and Kaggle datasets.
+**fcnn**: This folder contains the Fully Connected Neural Network (FCNN) classifier's .py file. 
 
-**ensemble:** This folder contains the Heterogeneous Ensemble Model's .ipynb file, illustrating the code used to train and evaluate the model on the UNB binary, UNB multiclass, and Kaggle datasets.
+**ensemble:** This folder contains the Heterogeneous Ensemble Model's .py file, illustrating the code used to train and evaluate the model all the datasets.
 
-**homogeneous ensemble:** This folder contains  .ipynb files , illustrating the code used to train and evaluate the model on the UNB binary, UNB multiclass, and Kaggle datasets using ensemble model using decision tree, and another ensemble model using fully connected neural network.
+**homogeneous ensemble:** This folder contains  .py files , illustrating the code used to train and evaluate the model on the UNB binary, UNB multiclass, and Kaggle datasets using ensemble model using decision tree, and another ensemble model using fully connected neural network.
 
 <h2 style="font-size: larger;">Usage</h2>
 
-You can access the relevant code files for each classifier in their respective folders. The .ipynb files provide a step-by-step implementation of the classifiers, including data preprocessing, training, and evaluation.
+You can access the relevant code files for each classifier in their respective folders. The .py files provide a step-by-step implementation of the classifiers, including data preprocessing, training, and evaluation.
 
 To reproduce the results, you can execute the code in your preferred Jupyter Notebook environment, ensuring that the required dependencies are installed.
 
